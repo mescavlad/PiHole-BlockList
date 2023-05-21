@@ -1771,3 +1771,14 @@ newsmed.ro#?#.vc_column-inner:-abp-has(.adsbygoogle)
 doc.ro##.side-sticky-banner
 doc.ro##.content-add
 
+hb.minutemedia-prebid.com
+uct.service.usercentrics.eu
+report2.hb.brainlyads.com
+pbs.nextmillmedia.com
+hb.minutemedia-prebid.com
+exchange.cootlogix.com
+static0.xdaimages.com
+static.sursazilei.ro
+scontent.xx.fbcdn.net
+prod.y-medialink.com
+scontent.fomr1-1.fna.fbcdn.net
