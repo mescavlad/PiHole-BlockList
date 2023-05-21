@@ -1,4 +1,4 @@
-
+BlockList_04
 
 [Adblock Plus 2.1]
 ! Title: ROU: Romanian Ads (ROad) Block List Light
@@ -133,8 +133,8 @@ zf.ro###bula-ultima-ora
 zf.ro##.banda-sticky-mini
 zf.ro##.banda-sticky-vp
 gemius.mgr.consensu.org$script,domain=zf.ro
-alephnews.ro$xhr,domain=zf.ro
-stream-aleph.m.ro$xhr,domain=zf.ro
+alephnews.ro
+stream-aleph.m.ro
 zf.ro###alephLiveBkp
 
 zonait.ro/*/728x90px$image
@@ -313,7 +313,7 @@ smlive.ro##article>div.td-post-content>p>a.td-modal-image
 smlive.ro#?#article>div.td-post-content>p:-abp-contains(/\u00A0$/)
 
 ! Filters:
-e-day.ro$third-party
+e-day.ro
 profitshare.emag.ro
 profitshare.ro
 l.profitshare.ro
@@ -324,8 +324,8 @@ l.profitshare.ro
 emag.ro##.ns-wrap-bottom-right
 
 ! Misc trackers
-2parale.ro$third-party
-2performant.com$third-party
+2parale.ro
+2performant.com
 adexc.net
 admonitoring.bsgroup.ro
 adocean.pl
@@ -333,10 +333,10 @@ ads.gadget.ro
 ads.tradeads.eu
 adservingfactory.com
 amazonaws.com/newd.cetrk.com/
-bannersnack.com$third-party
+bannersnack.com
 brat-online.ro
 chargeplatform.com
-evensys.ro$third-party
+evensys.ro
 flx1.com
 gravityrd-services.com
 megapopads.com
@@ -707,7 +707,7 @@ digi24.ro/static/img/adblock.jpg$image
 digi24.ro###adContainer
 digi24.ro###category_b
 @@scdn.cxense.com/cx.js$script,domain=digi24.ro
-@@pubads.g.doubleclick.net/ssai/event/$xhr,domain=digi24.ro
+@@pubads.g.doubleclick.net
 
 rangfort.ro/resurse/rfhz.png$image
 
