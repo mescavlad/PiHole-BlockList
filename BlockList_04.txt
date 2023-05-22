@@ -1808,5 +1808,7 @@ trc.taboola.com
 uct.service.usercentrics.eu
 
 TrafficFactory.biz
+banners-cdn77.trafficfactory.biz
 rpc-php.trafficfactory.biz
 s.orbsrv.com
+jsmcrptjmp.com
