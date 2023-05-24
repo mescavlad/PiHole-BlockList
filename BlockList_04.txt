@@ -1,8 +1,3 @@
-BlockList_04
-
-[Adblock Plus 2.1]
-! Title: ROU: Romanian Ads (ROad) Block List Light
-
 ad.doubleclick.net
 paydemic.com
 geozo.com
@@ -132,7 +127,7 @@ urban.ro###home_calendar > a
 zf.ro###bula-ultima-ora
 zf.ro##.banda-sticky-mini
 zf.ro##.banda-sticky-vp
-gemius.mgr.consensu.org$script,domain=zf.ro
+gemius.mgr.consensu.org
 alephnews.ro
 stream-aleph.m.ro
 zf.ro###alephLiveBkp
@@ -366,7 +361,7 @@ trafictube.ro##div[style*="width:520px;"]
 @@trafictube.ro/favicon.ico$image,first-party
 trafictube.ro/wp-content/Banners/*
 trafictube.ro/smecher/api/produs-responsive.php
-trafictube.ro$xmlhttprequest,domain=trafictube.ro
+trafictube.ro$
 /trafictube\.ro\/[a-zA-Z0-9=,.?&]+$/$domain=trafictube.ro,script,image
 /razvanbb\.ro\/[a-zA-Z0-9=,.?&-]+$/$domain=razvanbb.ro,script,image
 razvanbb.ro##.feededay
@@ -394,9 +389,8 @@ cetin.ro##.wpel-icon-right.bflink
 cetin.ro##.bf > .wpel-icon-right
 cetin.ro##.cd-is-visible.cd-top
 
-yoso.ro$image,domain=zoso.ro
+yoso.ro
 zoso.ro/wp-content/*$image
-imgur.com$image,domain=zoso.ro
 @@zoso.ro/wp-content/themes/zoso4/images/logo.png
 @@zoso.ro/wp-content/plugins/comment-rating/images/1_14_up.png
 @@zoso.ro/wp-content/plugins/comment-rating/images/1_14_down.png
@@ -418,7 +412,7 @@ cdn.moise.ro/wp-content/themes/biziday/images/app-desktop.jpg$image
 cdn.moise.ro/wp-content/uploads/2017/02/bt-mic-sidebar.jpg$image
 cdn.moise.ro/wp-content/uploads/2017/04/EMBA_bucharest380x220_0603.gif$image
 cotatii.tradeville.eu/quotations/img/gr.png$image
-push.tradeville.eu$websocket,domain=moise.ro
+push.tradeville.eu
 moise.ro###_tdv_all
 
 manafu.ro###copy
@@ -437,7 +431,7 @@ luju.ro/static/images/banner*
 luju.ro/static/images/Ten.jpg
 luju.ro/static/images/juri2.jpg
 luju.ro/static/banners/banner-psd.jpg
-/luju\.ro\/static\/images\/[a-zA-Z0-9=,.?&]+$/$domain=luju.ro,image
+/luju\.ro\/static\/images\/[a-zA-Z0-9=,.?&]+
 luju.ro##.index-slide
 luju.ro##[src*="banner"]
 luju.ro##[id*="banner"]
@@ -457,7 +451,6 @@ b1tv.ro##.branding
 b1tv.ro##.bg--dark
 b1tv.ro#?#.height-250:-abp-has([id="div-gpt-ad"])
 ! https://github.com/tcptomato/ROad-Block/issues/286
-.ro/track.js?$script
 
 stiridecluj.ro##div[onclick]
 ziardecluj.ro##div.ad
@@ -489,11 +482,13 @@ academiacatavencu.info##.widget-profitshare
 academiacatavencu.info##.mask
 academiacatavencu.info##.widget-popup
 awstaticdn.net
-cloudfront.net$script,domain=playfs.com
+cloudfront.net+
 contestapp.a1.ro
 creativcdn.net
 kreativcdn.net
 magazinuldecase.ro$popup
+
+playfs.com
 
 ! Third Party
 best-top.ro$third-party
@@ -559,9 +554,9 @@ national.ro##.metasingle-jos
 national.ro###ys-container
 national.ro##.visible.ys-layer
 national.ro##.td-a-rec-id-custom-spot
-@@pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=national.ro
+@@pagead2.googlesyndication.com/pagead/managed/js/adsense/$script
 @@/adsid/integrator.js$script,domain=national.ro
-@@securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=national.ro
+@@securepubads.g.doubleclick.net/tag/js/gpt.js$script
 
 ziarulromanesc.de###adv-Piede-sticky
 ziarulromanesc.de/*promo
@@ -574,7 +569,7 @@ flux24.ro##.td_spot_img_all
 georgebutunoiu.com##.img-banner
 restocracy.ro##.img-banner
 
-widgets.apropo.ro/js/providers/autopro/widgets/ads/widget.js$script,domain=prosport.ro
+widgets.apropo.ro/js/providers/autopro/widgets/ads/widget.js$script
 adsnative.com
 prosport.ro###crt-523996
 prosport.ro###crt-523989
@@ -584,7 +579,7 @@ prosport.ro##.height-250.text-center
 prosport.ro##.strawberry-ads-manager-container
 prosport.ro##.height-250.mg-sm-bottom-20
 @@brid.tv/player/$script,domain=prosport.ro
-@@imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=prosport.ro
+@@imasdk.googleapis.com/js/sdkloader/ima3.js$script
 prosport.ro##.strawberry-ad
 
 s2blosh.com
@@ -627,7 +622,7 @@ tribuna.md*.gif$image
 
 ph-online.ro/*banner
 ph-online.ro##.banneritem
-connect.facebook.net/ro_RO/all.js$script,domain=ph-online.ro
+connect.facebook.net/ro_RO/all.js$script
 
 capital.ro/wp-content/uploads/2019/04/comunicate-online-capital.gif$image
 capital.ro/wp-content/uploads/2020/01/bdt-fordstore-28012020.jpg$image
